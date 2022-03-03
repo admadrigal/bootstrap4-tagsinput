@@ -1,6 +1,6 @@
 /*
  * bootstrap-tagsinput v0.8.0
- * 
+ *
  */
 
 (function ($) {
@@ -56,7 +56,7 @@
     this.inputSize = Math.max(1, this.placeholderText.length);
 
     this.$container = $('<div class="bootstrap-tagsinput"></div>');
-    this.$input = $('<input type="' + this.type + '" name="' + this.name + '" placeholder="' + this.placeholderText + '"/>').appendTo(this.$container);
+    this.$input = $('<input type="' + this.type + '" name="' + this.name + '" placeholder="' + this.placeholderText + '" style="display: none;"/>').appendTo(this.$container);
 
     this.$element.before(this.$container);
 
